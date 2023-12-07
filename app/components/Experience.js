@@ -2,12 +2,12 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="h-full mt-[1162px] absolute w-full flex flex-col ">
+    <div className="h-full md:mt-[1232px] mt-[1302px] absolute w-full flex flex-col ">
         <div className="mx-20 p-2 m-2 mt-4 flex">
-          <span className="text-black text-4xl font-semibold">Experience &nbsp;</span>
-          <span className="text-black text-lg font-semibold">____________________________________________________________________________________________________________________________________</span>
+          <span className="text-black text-3xl font-semibold">Experience &nbsp;</span>
+          <span className="text-black text-lg font-semibold sm:visible md:visible invisible">____________________________________________________________________________________________________________________________________</span>
           </div>
-        <div className="mx-20 p-2 m-2 mt-10 grid grid-cols-2">
+        <div className="md:mx-20 p-2 m-2 md:mt-10 grid md:grid-cols-2 grid-cols-1">
           <div className="flex flex-col m-2 p-2 border border-black">
             <div className="border-b border-black bg-gray-300">
               <span className="font-semibold">Contus Tech - Works @ IFF - </span>
