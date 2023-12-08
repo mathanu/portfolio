@@ -55,7 +55,7 @@ const HeaderCmp = () => {
           </li>
         </ul>
       </div>
-      <div className="mt-2 sm:invisible md:visible lg:invisible invisible">
+      <div className="mt-2 sm:invisible md:visible ">
         <ul className="flex md:p-2 md:mx-52 md:m-2 md:text-base md:font-medium">
           <li className="px-4  hover:text-yellow-500 cursor-pointer">
             <Link href="/">Home</Link>
