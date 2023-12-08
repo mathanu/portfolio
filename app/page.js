@@ -6,7 +6,7 @@ import Skills from "./components/Skills";
 
 export default function Home() {
   return (
-    <div  className="overflow-hidden">
+    <div className="overflow-x-hidden">
       <HeaderCmp />
       <HomeCmp />
       <Experience />

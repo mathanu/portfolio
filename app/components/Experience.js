@@ -2,10 +2,10 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="h-full md:mt-[1232px] mt-[1302px] absolute w-full flex flex-col ">
-        <div className="mx-20 p-2 m-2 mt-4 flex">
+    <div id="Experience" className="h-full md:mt-[1232px] mt-[1352px] absolute w-full flex flex-col ">
+        <div className="md:mx-20 p-2 m-2 md:mt-4 mt-0 flex">
           <span className="text-black text-3xl font-semibold">Experience &nbsp;</span>
-          <span className="text-black text-lg font-semibold sm:visible md:visible invisible">____________________________________________________________________________________________________________________________________</span>
+          <span className="text-black text-lg font-semibold sm:visible md:visible invisible absolute">____________________________________________________________________________________________________________________________________</span>
           </div>
         <div className="md:mx-20 p-2 m-2 md:mt-10 grid md:grid-cols-2 grid-cols-1">
           <div className="flex flex-col m-2 p-2 border border-black">
