@@ -1,14 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const HeaderCmp = () => {
 
-  const [showMenu, setShowMenu] = useState(false)
 
-  const showMenuFunc = () => {
-    setShowMenu(!true)
-  }
 
   return (
     <div className="md:w-full w-screen z-20 md:flex md:justify-between fixed top-0 border-b border-black h-20 bg-yellow-400">
@@ -35,7 +31,7 @@ const HeaderCmp = () => {
           {" "}<FontAwesomeIcon className="h-8 w-8" icon={["fa", "bars"]} />
         </span>
       </div>
-      {showMenu && <div className="md:invisible w-screen">
+     <div className="md:invisible w-screen">
       <ul className="md:p-2 md:mx-52 p-4 md:m-2 md:text-base md:font-medium absolute bg-black z-10 w-full">
           <li className="px-4 hover:text-yellow-500 p-2 text-white cursor-pointer">
             <Link href="/">Home</Link>
@@ -59,7 +55,6 @@ const HeaderCmp = () => {
           </li>
         </ul>
       </div>
-      }
       <div className="mt-2 sm:invisible md:visible lg:invisible invisible">
         <ul className="flex md:p-2 md:mx-52 md:m-2 md:text-base md:font-medium">
           <li className="px-4  hover:text-yellow-500 cursor-pointer">
