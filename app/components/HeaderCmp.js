@@ -27,7 +27,7 @@ const HeaderCmp = () => {
         </span>
       </div>
       <div className="md:invisible visible float-right -mt-10 mr-4">
-        <span className="h-8 w-8" onClick={showMenuFunc}> ||
+        <span className="h-8 w-8" > ||
           {" "}<FontAwesomeIcon className="h-8 w-8" icon={["fa", "bars"]} />
         </span>
       </div>
